@@ -49,26 +49,6 @@ Actualmente el prototipo permite:
 - Visualización detallada de cada pedido.
 - Cambio del estado de un pedido de **Pendiente** a **Entregado**.
 - Eliminación de pedidos (simulación de cancelación).
-- Persistencia temporal de datos durante la ejecución del prototipo mediante memoria RAM (OrderStore).
-
----
-
-# 🚧 Funcionalidades Futuras
-
-El proyecto fue diseñado para facilitar su integración con un backend en la nube.
-
-Entre las mejoras planificadas se encuentran:
-
-- Integración con Firebase.
-- Integración con Turso Database.
-- Sincronización entre múltiples dispositivos.
-- Notificaciones de pedidos próximos.
-- Historial de clientes.
-- Gestión de inventario.
-- Registro de productos.
-- Estadísticas de ventas.
-- Reportes financieros.
-- Panel administrativo.
 
 ---
 
@@ -299,20 +279,6 @@ PasteleriaSofia
 
 ---
 
-# 💾 Persistencia de Datos
-
-Actualmente el prototipo utiliza una persistencia temporal mediante:
-
-```
-OrderStore.swift
-```
-
-Los datos permanecen almacenados únicamente mientras la aplicación permanece abierta.
-
-En futuras versiones se implementará persistencia permanente mediante Firebase o Turso Database.
-
----
-
 # 🎨 Diseño de la Interfaz
 
 La aplicación fue diseñada siguiendo las recomendaciones de Human Interface Guidelines (HIG) de Apple.
@@ -421,9 +387,9 @@ Estado:
 - ✅ Desarrollo del frontend finalizado.
 - ✅ Navegación implementada.
 - ✅ Gestión temporal de pedidos implementada.
-- ✅ CRUD básico en memoria.
-- ⏳ Integración con base de datos pendiente.
-- ⏳ Autenticación real pendiente.
+- ✅ CRUD básico.
+- ✅ Integración con base de datos.
+- ✅ Autenticación real.
 
 ---
 
