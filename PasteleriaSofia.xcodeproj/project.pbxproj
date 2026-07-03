@@ -75,10 +75,10 @@
 		B97471652FD8DD510072D13B = {
 			isa = PBXGroup;
 			children = (
-				B97471702FD8DD510072D13B /* PasteleriaSofia */,
 				B974717E2FD8DD540072D13B /* PasteleriaSofiaTests */,
 				B97471882FD8DD540072D13B /* PasteleriaSofiaUITests */,
 				B974716F2FD8DD510072D13B /* Products */,
+				B97471702FD8DD510072D13B /* PasteleriaSofia */,
 			);
 			sourceTree = "<group>";
 		};

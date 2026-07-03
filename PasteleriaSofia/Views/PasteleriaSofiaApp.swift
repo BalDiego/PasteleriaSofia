@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct PasteleriaSofiaApp: App {
+
+    @StateObject private var orderStore = OrderStore()
+
     var body: some Scene {
+
         WindowGroup {
-            ContentView()
+
+            LoginView()
+                .environmentObject(orderStore)
         }
     }
 }
